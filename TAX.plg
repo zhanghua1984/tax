@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TAX - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/TAX.res" /d "_DEBUG" /d "_AFXDLL" "E:\Project\tax\TAX\TAX.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBA65.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/TAX.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Project\tax\TAX\excel.cpp"
+"E:\Project\tax\TAX\TAX.cpp"
+"E:\Project\tax\TAX\TAXDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBA65.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBA66.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/TAX.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Project\tax\TAX\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBA66.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/TAX.pdb" /debug /machine:I386 /out:"Debug/TAX.exe" /pdbtype:sept  .\Debug\excel.obj .\Debug\StdAfx.obj .\Debug\TAX.obj .\Debug\TAXDlg.obj .\Debug\TAX.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+excel.cpp
+TAX.cpp
+TAXDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/TAX.bsc"  .\Debug\StdAfx.sbr .\Debug\excel.sbr .\Debug\TAX.sbr .\Debug\TAXDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+TAX.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
